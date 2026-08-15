@@ -1,9 +1,9 @@
 # dsh-netease-music
 
 <p align="center">
-  <img alt="version" src="https://img.shields.io/badge/version-1.0.0-blue">
+  <a href="https://github.com/JasonCHTT/dsh-netease-music"><img alt="release" src="https://img.shields.io/github/v/release/JasonCHTT/dsh-netease-music"></a>
   <img alt="platform" src="https://img.shields.io/badge/platform-DSH%20Web-blueviolet">
-  <img alt="license" src="https://img.shields.io/badge/license-MIT-green">
+  <a href="https://github.com/JasonCHTT/dsh-netease-music/blob/main/LICENSE"><img alt="license" src="https://img.shields.io/github/license/JasonCHTT/dsh-netease-music"></a>
 </p>
 
 <p align="center"><b>DeepSeek Harness（DSH）网页版的网易云音乐播放器插件</b></p>

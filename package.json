@@ -10,6 +10,10 @@
     "netease-cloud-music",
     "music"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JasonCHTT/dsh-netease-music.git"
+  },
   "type": "module",
   "main": "lib/index.js",
   "exports": {
