@@ -181,7 +181,10 @@ dsh-netease-music/
 Search, playback, queue and history do not require login; daily recommendations, personal FM and my playlists do.
 
 **Q: Can anyone else get my login state?**
-No. Login state is kept only on your machine and is never distributed with the repository or the package.
+No. The login cookie is stored only in your local profile directory and stays inside the host process — the settings the browser receives have the cookie field stripped, and the plugin routes only answer loopback requests. It is never distributed with the repository or the package.
+
+**Q: Can I expose the local API service (default port 3000) to the public internet?**
+No. The login cookie is passed to the local NeteaseCloudMusicApi as a URL query parameter (an upstream API design constraint); exposing that port to the public network could leave the cookie in server logs or packet captures. Keep the service bound to loopback (127.0.0.1) only, and never port-forward 3000.
 
 **Q: Some songs fail to play?**
 Songs without copyright or behind a separate paywall cannot be played; the panel will show a hint. Non-VIP high / extreme-high quality automatically falls back to standard.
