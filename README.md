@@ -15,6 +15,10 @@
 
 ---
 
+## 截图
+
+<p align="center"><img src="demo.jpg" alt="使用截图" width="720"></p>
+
 ## 功能总览
 
 - **顶部条常驻迷你播放器**：封面、歌名 / 歌手、上一首、播放 / 暂停、下一首、播放模式切换、单行滚动歌词
@@ -164,7 +168,10 @@ dsh-netease-music/
 │   ├── index.js           # Host 端插件
 │   └── client.js          # 浏览器端 bundle
 ├── nm-default-cover.jpg   # 未播放时的默认封面图（内嵌于 bundle）
-└── README.md
+├── demo.jpg               # 使用截图
+├── README.md              # 中文说明
+├── README.en.md           # 英文说明
+└── LICENSE
 ```
 
 ## 常见问题

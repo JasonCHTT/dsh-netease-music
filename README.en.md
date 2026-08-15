@@ -15,6 +15,10 @@
 
 ---
 
+## Screenshot
+
+<p align="center"><img src="demo.jpg" alt="Screenshot" width="720"></p>
+
 ## Features
 
 - **Persistent top-bar mini player**: cover, title / artist, previous, play / pause, next, play-mode switch, single-line rolling lyrics
@@ -165,6 +169,7 @@ dsh-netease-music/
 │   ├── index.js           # host-half plugin
 │   └── client.js          # browser bundle
 ├── nm-default-cover.jpg   # default cover shown before playback (embedded in the bundle)
+├── demo.jpg               # usage screenshot
 ├── README.md              # Chinese README
 ├── README.en.md           # English README
 └── LICENSE
