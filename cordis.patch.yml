@@ -1,0 +1,21 @@
+# dsh-netease-music bundle patch: inserts the music plugin host half into the
+# host Loader. The browser half is discovered through the `dsh.client`
+# declaration in package.json (web platform roster).
+#
+# The host half is deliberately dependency-free (node builtins + ctx services:
+# webServer / subprocess / tools) so the package can be `link:`-installed from
+# any directory; the browser half calls its same-origin routes under
+# /plugin/netease-music/*.
+#
+# Install with:
+#   dsh plugin --profile web add link:<path-to-this-directory>
+#   (then `pnpm add NeteaseCloudMusicApi` in the profile directory, and add
+#    "dsh-netease-music" to dsh.profile.bundles)
+#
+# config here seeds the plugin's defaults; user settings saved by the plugin
+# to the profile directory take precedence after first save.
+- insert:
+    - id: netease-music
+      name: dsh-netease-music
+      config:
+        port: 3000

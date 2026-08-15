@@ -1,0 +1,15 @@
+# 运行时设置（含登录 Cookie，切勿提交）
+netease-music.json
+
+# 依赖与构建产物
+node_modules/
+dist/
+*.log
+
+# 操作系统 / 编辑器杂项
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+.idea/
+.vscode/
