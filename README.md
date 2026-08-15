@@ -1,7 +1,9 @@
+<div align="right"><b>简体中文</b> | <a href="README.en.md">English</a></div>
+
 # dsh-netease-music
 
 <p align="center">
-  <a href="https://github.com/JasonCHTT/dsh-netease-music"><img alt="release" src="https://img.shields.io/github/v/tag/JasonCHTT/dsh-netease-music"></a>
+  <a href="https://github.com/JasonCHTT/dsh-netease-music"><img alt="release" src="https://img.shields.io/github/v/release/JasonCHTT/dsh-netease-music"></a>
   <img alt="platform" src="https://img.shields.io/badge/platform-DSH%20Web-blueviolet">
   <a href="https://github.com/JasonCHTT/dsh-netease-music/blob/main/LICENSE"><img alt="license" src="https://img.shields.io/github/license/JasonCHTT/dsh-netease-music"></a>
 </p>
